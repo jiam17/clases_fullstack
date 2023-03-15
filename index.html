@@ -1,0 +1,79 @@
+<!--estructura basica de html: head, body-->
+<!DOCTYPE html> <!--tipo de documento-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lugares turisticos</title>
+</head>
+<body>
+    <header>
+        <h1>lugares turisticos de el salador</h1>
+    </header>
+    <nav>
+        <!--lista desordenada-->
+        <ul>
+            <!--elementos de la lista-->
+            <li>
+                <!-- hipervinculos para redireccion a otras paginas o enlaces-->
+                <a href="./index.html">home</a>
+            </li>
+            <li>
+                <a href="./elpital.html">el pital</a>
+            </li>
+            <li>
+                <a href="./rutadelasflores.html">ruta de las flores</a>
+            </li>
+            <li>
+                <a href="./lagodecoatepeque.html">lago de coatepque</a>
+            </li>
+        </ul>
+    </nav>
+    <!--contenido principal de la pagina-
+        <section>, <main>, <div>, <article>
+
+            <main>: etiqueta padree muestra contenido
+            <article>: etiqueta para dividir nuestro contenido
+    -->
+    <main>
+        <section>
+            <article>
+                <h2>Bienvenidos a nuestra pagina web</h2>
+            </article>
+            <article>
+                <!--describiendo de que se trata la pagina web-->
+                <p>
+                    en este sitio web encontratas los lugares turisticos mas visitados de el salvador
+                    podras visualizar imagenes, detalles y direccion de dichos lugares
+                </p>
+            </article>
+        </section>
+        <section>
+            <!--imagen
+            src: propiedad donde colocamos la ruta de la imagen
+            alt: propiedad que describe la imagen 
+            -->
+            <img src="./imagenes/imagen.jpg" alt="imagen"/>
+        </section>
+        <!--apartado no relevante-->
+        <aside>
+            <h4>dale click <span>
+                <a href="https://htmlreference.io/" target="_blank">aqui</a>
+            </span></h4>
+            <!--asignando una ruta absoluta
+                target: es una propiedad que toma como relecancia la redireccion de la ruta
+                _blank: redirige la ruta en una nueva pestaña
+            -->
+            <a href="https://htmlreference.io/" target="_blank">aqui</a>
+        </aside>
+    </main>
+
+    <footer>
+        <h1>2023 jona alfaro</h1>
+    </footer>
+
+        
+    
+</body>
+</html>
