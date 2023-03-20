@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>el pital</title>
 </head>
+<style type="text/css">
+    form{
+        border: 1px solid black;
+        width: 25%;
+        height: 200px;
+        padding: 5px;
+    }
+</style>
 <body>
     <header>
-        <h1>el pital 2</h1>
+        <h1>el pital</h1>
     </header>
     <nav>
         <!--lista desordenada-->
@@ -29,23 +38,56 @@
             </li>
         </ul>
     </nav>
-    <section>
-        <!--apartado de video
-        <iframe>: videos desde un enlace de un servidor, google maps
-        <video>: videos locales 
-        -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/NU-xyyCDgR4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-        <h3>visita el pital</h3>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ut iusto nisi aspernatur totam voluptatum quo explicabo accusamus earum cum! Consequatur pariatur quia dolorum hic deleniti dicta quis, sequi suscipit.
-        </p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15458.672034766943!2d-89.13476237994188!3d14.388610223721134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63a22e2515544b%3A0x29d828ff57aed1dd!2sCerro%20El%20Pital!5e0!3m2!1ses-419!2ssv!4v1678920792391!5m2!1ses-419!2ssv" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-    <footer>
-        <h1>2023 jona alfaro</h1>
-    </footer>
-
+    <main>
+        <section>
+            <!--apartado de video
+            <iframe>: videos desde un enlace de un servidor, google maps
+            <video>: videos locales 
+            -->
+            <iframe width="300" height="300" src="https://www.youtube.com/embed/NU-xyyCDgR4" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
     
+            <h3>visita el pital</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ut iusto nisi aspernatur totam
+                voluptatum quo explicabo accusamus earum cum! Consequatur pariatur quia dolorum hic deleniti dicta quis,
+                sequi suscipit.
+            </p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15458.672034766943!2d-89.13476237994188!3d14.388610223721134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63a22e2515544b%3A0x29d828ff57aed1dd!2sCerro%20El%20Pital!5e0!3m2!1ses-419!2ssv!4v1678920792391!5m2!1ses-419!2ssv"
+                width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
+        </section>
+        <section>
+            <form>
+                <h4>formulario</h4>
+                <ul>
+                    <li>
+                        <label for="name">nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
+                    </li>
+                    <li>
+                        <label for="mail">correo:</label>
+                        <input type="email" id="email" name="nombre">
+                    </li>
+                    <li>
+                    
+                        <label for="msg">mensaje</label>
+                        <textarea id="msg" name="mensaje"></textarea>
+                        
+                    </li>
+                        <input type="submit" id="submit" value="enviar">
+                </ul>
+            </form>
+        </section>
+        <footer>
+            <h1>2023 jona alfaro</h1>
+        </footer>
+    
+    </main>
 </body>
+
 </html>

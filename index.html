@@ -7,9 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lugares turisticos</title>
 </head>
+<!--estilos de la tabla-->
+<style type="text/css">
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: left;
+    }
+    th{
+        padding: 5px;
+    }
+</style>
+<!--fin de estilos de la tabla-->
 <body>
-    <header>
-        <h1>lugares turisticos de el salador</h1>
+    <!--en la tarea asignada para el lunes 20 de marzo termine las secciones de los sitios
+        de la ruta de las flores y el lago de coatepeque aparte agregue una tabla en la pestaña de index.html 
+    agregue una lista ordenada en la pestaña lagodecoatepeque.html y una seccion de formularios en la pestaña 
+    elpital.html
+    -->
+    <header> 
+        <h1>lugares turisticos de el salvador</h1>
     </header>
     <nav>
         <!--lista desordenada-->
@@ -26,7 +43,7 @@
                 <a href="./rutadelasflores.html">ruta de las flores</a>
             </li>
             <li>
-                <a href="./lagodecoatepeque.html">lago de coatepque</a>
+                <a href="./lagodecoatepeque.html">lago de coatepeque</a>
             </li>
         </ul>
     </nav>
@@ -54,8 +71,41 @@
             src: propiedad donde colocamos la ruta de la imagen
             alt: propiedad que describe la imagen 
             -->
-            <img src="./imagenes/imagen.jpg" alt="imagen"/>
+            <img src="./imagenes/sivar.webp" alt="imagen" width="300px" height="300px"/>
+            <!--inicio de tablas -->
+            <br>
+            <table style="width: 50%;">
+                <tr>
+                    <caption>personas afiliadas</caption>
+                </tr>
+                <tr>
+                    <th>nombre</th>
+                    <th>pais</th>
+                    <th>telefono</th>
+                </tr>
+                <tr>
+                    <td>juan</td>
+                    <td>mexico</td>
+                    <td>88559228</td>
+                </tr>
+                <tr>
+                    <td>maria</td>
+                    <td>canada</td>
+                    <td>14582992</td>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>argentina</td>
+                    <td>6620852</td>
+                </tr>
+                <tr>
+                    <td>miguel</td>
+                    <td>españa</td>
+                    <td>91512556</td>
+                </tr>
+            </table>
         </section>
+        <!--fin de la tabla-->
         <!--apartado no relevante-->
         <aside>
             <h4>dale click <span>
@@ -67,13 +117,13 @@
             -->
             <a href="https://htmlreference.io/" target="_blank">aqui</a>
         </aside>
+
     </main>
 
     <footer>
         <h1>2023 jona alfaro</h1>
     </footer>
 
-        
-    
 </body>
+        
 </html>
