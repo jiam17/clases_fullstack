@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    /*asignando tipo de fuente*/
+    font-family: 'Alkatra', cursive;
+
+
+}
+
+header {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3ccircle r='93.335' cx='7.48' cy='-9.92' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='93.335' cx='310.06' cy='404.55' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='93.335' cx='678.48' cy='723.27' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='123.38' cx='986.18' cy='349.17' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='94.92' cx='312.68' cy='361.75' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='159.485' cx='928.58' cy='502.19' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='77.39' cx='1326.98' cy='81.45' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='89.385' cx='1249.54' cy='464.72' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='151.1' cx='841.39' cy='475.5' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='118.305' cx='339.95' cy='297.11' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='128.94' cx='1242.26' cy='298.08' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='83.45' cx='941.12' cy='270.41' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='161.96' cx='1022.22' cy='205.97' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='91.94' cx='589.21' cy='259.04' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='109.125' cx='1335.48' cy='372.36' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='131.655' cx='671.04' cy='308.92' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='124.155' cx='591.13' cy='376.77' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='160.79' cx='482.81' cy='357.76' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='153.625' cx='274.39' cy='339.16' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='66.44' cx='353.99' cy='129.38' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='62.305' cx='96.78' cy='392.17' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='75.375' cx='982.58' cy='554.08' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='176.925' cx='916.04' cy='464.83' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='91.28' cx='1378.02' cy='289.18' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='114.065' cx='739.18' cy='25.56' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='131.81' cx='1046.27' cy='130.38' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='155.65' cx='1201.6' cy='163.38' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='114.14' cx='410.1' cy='275.9' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='104.09' cx='67.39' cy='300.98' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='73.69' cx='1026.58' cy='374.72' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='168.375' cx='385.35' cy='439.6' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='47.24' cx='1163.01' cy='369.82' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='153.375' cx='842.78' cy='116.27' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='113.575' cx='935.38' cy='119.21' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='178.72' cx='1219.04' cy='205.93' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='104.385' cx='907.78' cy='180.62' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='68.1' cx='217.61' cy='438.81' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='90.175' cx='740.21' cy='112.51' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='109.895' cx='717.59' cy='374.85' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3ccircle r='108.445' cx='165.04' cy='282.23' stroke='%23365aa3' stroke-opacity='0.25' stroke-width='2'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1000'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+
+    height: 200px
+        /*asignando altura*/
+    ;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    /**propiedad que toma el espacio del alto para que 
+                          el texto este en el centro*/
+}
+
+nav {
+    background-color: #101E48;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    /*elimina el estilo de la lista*/
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.box-center {
+    width: 80%;
+    margin: auto;
+    padding: 25px;
+    color: #4D6045;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.box-seccion {
+    display: flex;
+    justify-content: space-around;
+}
+
+#image {
+    width: 80%;
+}
+
+footer {
+    background-color: #101E48;
+    width: 100%;
+}
+
+.footer_container {
+    display: grid;
+    /*asigna cuantas columnas queremos*/
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 50px;
+    gap: 20px;
+    color: white;
+}
+
+
+.margen {
+    margin: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row-reverse;
+    /*estamos trabajando con elementos si van a estar en fila y los estamos 
+                            envolviendo en una sola linea
+                            */
+}
+
+.icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #509F36;
+    border-radius: 50%;
+    color: white;
+    margin: 5px;
+}
+
+.footer_container .info .icons {
+    width: 60%;
+}
+
+/*tamaño del contorno de los iconos*/
+.footer_container .info .icons a {
+    width: 50px;
+    height: 50px;
+}
+
+.footer_container .info .icons a:hover {
+    background-color: transparent;
+}
+
+/*apartado de viajes*/
+
+.seccion-card {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.card{
+    width: 30%;
+    height: 300px;
+    /*colocando sombra*/
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+}
+
+.seccion-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card:hover{
+    transform: scale(1.1); /*x = 1.1 y es igual a 1.1*/
+}
+
+/*aplicando media query*/
+
+.contact-fondo{
+    background-image: url(img/img/viaje4.jpg);
+    height: 30rem; /*un rem 16 px*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.formulario{
+    background-color: rgba(192, 192, 192, 0.3);
+    margin: -10rem auto 0 auto;
+    width: 90%;
+    padding: 3rem;
+}
+
+form label{
+    color: black;
+    font-weight: bold;   
+}
+
+/*selector por etributo*/
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    height: 30px;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    margin: 8px 0;
+    display: block;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    margin: 8px 0;
+    display: block;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 8px;
+    margin-top: 32px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover{
+    background-color: #509F36;
+    border: 1px solid #509F36;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/*aplicando estilos para pantallas pequeñas*/
+
+
+
+@media (max-width: 1100px){
+    .icons{
+        width: 100% !important; /** con el !important asignamos que esto va ser mas importante */
+    }
+}
+
+/** aplicando estilos para pantallas pequeñas */
+@media (max-width: 768px ){
+    .contact-fondo{
+        background-position: 25% 100px; /*asignacion de nivel de la imgen*/
+    }
+}
+
+@media (max-width: 550px){
+    .box-section{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .footer_container{
+        /** asignamos una sola columna */
+        grid-template-columns: 1fr;
+    }
+
+    /** apartado de viajes.html */
+    .card{
+        width: 100%;
+    }
+
+}
+
+
